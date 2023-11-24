@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.hero-text {
+    padding: 6rem;
+}
+
+.hero-img {
+    background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(/arkaplan.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+h1,
+h4,
+p,
+h5 {
+    color: #fff;
+}
+
+.hero-text-input {
+    outline: none;
+    background-color: transparent !important;
+    border: 1px solid gray !important;
+    color: white !important;
+    width: 30%;
+}
+
+.form-floating button {
+    background-color: rgb(229, 9, 20);
+    font-size: 1.0rem;
+    border: 5px;
+}
+
+.form-floating button i {
+    margin-left: 0.5rem;
+}
+
+.form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label::after {
+    background-color: transparent;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0.10rem #fff;
+}
+
+.background {
+    background: linear-gradient(330deg, rgba(53, 12, 30), rgb(12, 17, 52));
+    height: 95%;
+}
+
+.card-left {
+    height: 100%;
+}
+
+.background-hero {
+    background: linear-gradient(to bottom, rgb(6, 10, 27, 0.0), rgb(6, 10, 27), rgb(6, 10, 27));
+}
+
+.accordion {
+    width: 75%;
+
+}
+
+.accordion-item,
+.accordion-button {
+    background-color: #181c3c;
+    color: #fff;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.accordion-button:focus {
+    background-color: #181c3c;
+    color: #fff;
+}
+
+.accordion-button {
+    color: #fff !important;
+}
+
+
+.accordion-button::after,
+.accordion-button:not(.collopsed)::after {
+    background-image: none;
+    content: "+";
+    font-size: 2rem;
+    transform: none;
+    display: flex;
+    border-radius: 0 !important;
+    margin-bottom: 2rem;
+
+}
+
+.h5 {
+    margin-top: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.dropdown{
+    margin-left: 450px;
+}
